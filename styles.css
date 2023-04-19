@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*header {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;  Centrar el logo horizontalmente 
+    align-items: center; Centrar el logo verticalmente 
+    padding: 10px;
+  }
+  */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image img{
+    flex: 1;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea, input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea[readonly] {
+    background-color: #eee;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:last-of-type {
+    margin-left: 10px;
+  }
+
+  footer {
+    background-color: #eee;
+    text-align: center; 
+    padding: 10px;
+  }  
+  
